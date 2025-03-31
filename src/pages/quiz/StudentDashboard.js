@@ -7,7 +7,7 @@ const StudentDashboard = () => {
   const userId = searchParams.get("user_id");
   const [groupIdInput, setGroupIdInput] = useState("");
   const [groups, setGroups] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
 
   const navigate = useNavigate();
 

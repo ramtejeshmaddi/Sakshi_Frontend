@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import QuizDashboard from './pages/quiz/quizDashboard';
 import QuizDetails from './pages/quiz/quizDetails';
